@@ -1,0 +1,32 @@
+A. Sequencing depth (trimmed reads, k = 31, min count 2)
+        3x  contigs   46  N50   119  genome  62.24%  false k-mers  0.00%  genes C/F/M 0/6/5
+        5x  contigs   28  N50   293  genome  84.16%  false k-mers  0.00%  genes C/F/M 0/11/0
+        8x  contigs   14  N50   724  genome  95.77%  false k-mers  0.00%  genes C/F/M 6/5/0
+       10x  contigs    7  N50   902  genome  98.59%  false k-mers  0.00%  genes C/F/M 8/3/0
+       15x  contigs    1  N50  5386  genome 100.00%  false k-mers  0.00%  genes C/F/M 11/0/0
+       20x  contigs    1  N50  5386  genome 100.00%  false k-mers  0.00%  genes C/F/M 11/0/0
+       30x  contigs    1  N50  5386  genome 100.00%  false k-mers  0.00%  genes C/F/M 11/0/0
+       50x  contigs    1  N50  5386  genome 100.00%  false k-mers  0.00%  genes C/F/M 11/0/0
+      100x  contigs    5  N50  4811  genome 100.00%  false k-mers  0.68%  genes C/F/M 9/2/0
+
+B. k-mer size (30x, trimmed reads, min count 2)
+      k=15  contigs    1  N50  5386  genome 100.00%  false k-mers  0.00%  genes C/F/M 11/0/0
+      k=21  contigs    1  N50  5386  genome 100.00%  false k-mers  0.00%  genes C/F/M 11/0/0
+      k=31  contigs    1  N50  5386  genome 100.00%  false k-mers  0.00%  genes C/F/M 11/0/0
+      k=41  contigs    1  N50  5386  genome 100.00%  false k-mers  0.00%  genes C/F/M 11/0/0
+      k=51  contigs    1  N50  5386  genome 100.00%  false k-mers  0.00%  genes C/F/M 11/0/0
+      k=71  contigs    2  N50  5235  genome 100.00%  false k-mers  0.00%  genes C/F/M 10/1/0
+
+C. Error filtering (30x, k = 31)
+   raw m=1  contigs  588  N50    48  genome 100.00%  false k-mers 46.47%  genes C/F/M 0/11/0
+            k-mers seen: 20124, kept: 20124
+   raw m=2  contigs    7  N50  3624  genome 100.00%  false k-mers  0.65%  genes C/F/M 7/4/0
+            k-mers seen: 20124, kept: 10842
+   raw m=3  contigs    1  N50  5386  genome 100.00%  false k-mers  0.00%  genes C/F/M 11/0/0
+            k-mers seen: 20124, kept: 10772
+  trim m=1  contigs  220  N50    61  genome 100.00%  false k-mers 23.73%  genes C/F/M 0/11/0
+            k-mers seen: 14124, kept: 14124
+  trim m=2  contigs    1  N50  5386  genome 100.00%  false k-mers  0.00%  genes C/F/M 11/0/0
+            k-mers seen: 14124, kept: 10772
+  trim m=3  contigs    1  N50  5386  genome 100.00%  false k-mers  0.00%  genes C/F/M 11/0/0
+            k-mers seen: 14124, kept: 10772

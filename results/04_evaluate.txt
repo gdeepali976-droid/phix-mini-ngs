@@ -1,0 +1,16 @@
+2 contigs, 5520 bp (reference is 5386 bp), largest 5235 bp, N50 5235 bp
+genome fraction (share of reference 31-mers recovered): 100.00%
+false 31-mers (in assembly, not in reference):        0.00%
+
+Gene completeness, BUSCO-style: 10 complete, 1 fragmented, 0 missing (of 11)
+  rf replication, viral strand synthesis p Complete    best contig 100.0%   assembly 100.0%
+  shut off host DNA synthesis protein      Complete    best contig 100.0%   assembly 100.0%
+  capsid morphogenesis protein             Complete    best contig 100.0%   assembly 100.0%
+  gene K protein                           Complete    best contig 100.0%   assembly 100.0%
+  DNA maturation protein                   Complete    best contig 100.0%   assembly 100.0%
+  capsid morphogenesis protein             Complete    best contig 100.0%   assembly 100.0%
+  cell lysis protein                       Complete    best contig 100.0%   assembly 100.0%
+  core protein, DNA condensation protein   Complete    best contig 100.0%   assembly 100.0%
+  major coat protein                       Complete    best contig 100.0%   assembly 100.0%
+  major spike protein                      Fragmented  best contig  63.7%   assembly 100.0%
+  minor spike protein, adsorption          Complete    best contig 100.0%   assembly 100.0%

@@ -1,0 +1,10 @@
+QC summary
+raw          1616 reads    161600 bases   Q20  95.9%  Q30  81.9%   true error 0.300%   duplicates 4.6%
+trimmed      1616 reads    154758 bases   Q20 100.0%  Q30  85.5%   true error 0.065%   duplicates 4.1%
+kept 100.0% of reads, 95.8% of bases
+
+GC content: genome 44.8%, reads (mean) 44.9%
+
+Did the quality scores tell the truth? (error rate, raw reads)
+  claimed by Phred scores: 0.289%    observed against reference: 0.300%
+  last 10 positions  claimed 1.43%  observed 1.50%

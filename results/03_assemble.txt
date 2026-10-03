@@ -1,0 +1,4 @@
+reads: 1616   k = 71   min k-mer count = 2
+distinct k-mers: 14024   kept (seen >= 2 times): 10760
+contigs: 2   total length: 5520 bp   largest: 5235 bp   N50: 5235 bp   circular contigs: 0
+five longest contigs (bp): 5235, 285
