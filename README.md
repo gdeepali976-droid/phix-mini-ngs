@@ -25,6 +25,8 @@ python run_all.py
 It downloads about 23 KB, runs all six steps and the tests, and takes under a minute. Output goes to `results/` and `figures/`.
 
 ## Results (30x coverage, seed 42)
+![Read QC](figures/02_read_qc.png)
+![Parameter sweep](figures/05_parameter_sweep.png)
 
 **QC.** 95.9% of bases are Q20 and 81.9% are Q30. Because I know where each read came from, I can measure the real error rate: 0.300%, against 0.289% claimed by the quality scores, so the scores are honest. Sliding-window trimming (window 4, mean Q20) drops the real error rate to 0.065% while keeping 95.8% of the bases.
 
